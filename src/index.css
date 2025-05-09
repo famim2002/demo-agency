@@ -9,12 +9,12 @@
 
 
 @theme{
-    --color-prmiaryColor: #1c1c1a;
+    --color-prmiaryColor: #222222;
     --color-sceondryColor: #656462;
     --color-baseColor: #FEFDF8;
-    --color-brandColor: #fa1a7f;
-    --color-lightBrandColor: #f5b0cf;
-    --font-headerFont: "Bebas Neue", sans-serif;
+    --color-brandColor: #A4B465;
+    --color-lightBrandColor: #DDEB9D;
+    
     --font-textFont: "Ubuntu", sans-serif;
     --font-headerFont: "Cal Sans", sans-serif;
     
