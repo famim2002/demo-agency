@@ -1,9 +1,10 @@
 import React from 'react'
+import WhoWeAre from '../componenets/home/WhoWeAre'
 
 const About = () => {
   return (
     <>
-      <h2 className='text-6xl text-center font-bold'>this is About  page</h2>
+    <WhoWeAre/>
     </>
   )
 }

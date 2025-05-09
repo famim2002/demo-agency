@@ -2,7 +2,7 @@ import React from "react";
 
 const WhoWeAre = () => {
   return (
-    <section className="px-3 py-20">
+    <section className="px-3 pt-20 py-50 overflow-hidden">
       <div className="container">
         <div
           className="flex flex-col  justify-between lg:gap-7
@@ -10,11 +10,11 @@ const WhoWeAre = () => {
         >
           <div className="flex flex-col gap-10">
             <h2
-              className=" text-4xl font-bold font-headerFont max-w-4xl tracking-tighter
+              className=" text-4xl font-bold font-headerFont max-w-4xl  text-prmiaryColor
             md:text-7xl"
             >
               <span
-                className="inline-block font-tagFont text-2xl font-medium w-fit pr-10 pb-5 tracking-tight relative after
+                className="inline-block font-tagFont text-2xl font-medium w-fit pr-10 pb-5  relative after
               after:absolute  after:w-40  after:left-0 after:h-1 after:top-8 after:bg-brandColor active:bg-lightBrandColor"
               >
                 01 who we are
@@ -47,7 +47,7 @@ const WhoWeAre = () => {
                 <small className="text-xl text-semibold text-sceondryColor ">
                   <span className="text-xl text-prmiaryColor font-semibold">
                     32+
-                  </span>{" "}
+                  </span>
                   happy clients
                 </small>
               </div>
@@ -65,7 +65,7 @@ const WhoWeAre = () => {
                 Make your business prosper with our great team of experts. We’ll
                 make your.
               </h3>
-              <p className="py-6 text-9xl  text-center text-prmiaryColor font-headerFont font-semibold tracking-tighter">1.8x</p>
+              <p className="py-6 text-9xl  text-center text-prmiaryColor font-headerFont font-semibold  ">1.8x</p>
               <p className="font-semibold  text-center text-prmiaryColor">FASTER SERVICE</p>
             </div>
           </div>

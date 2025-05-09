@@ -61,14 +61,14 @@ const Banner = () => {
             lg:flex-row "
           >
             <div>
-              <img className=" max-w-[350px]" src="/banner_1.jpg" alt="" />
+              <img className=" w-[350px]" src="/banner_1.jpg" alt="" />
             </div>
-            <div className="absolute">
+            <div className="absolute w-full">
               <img
-                className=" absolute translate-x-10 translate-y-90  border-8 border-white max-w-[300px]
+                className=" absolute  translate-y-70  border-8 border-white w-[320px]
                sm:translate-x-40 sm:translate-y-50 
-              md:translate-x-40 md:translate-y-50
-              lg:translate-x-10 lg:translate-y-110
+              md:translate-x-40 md:translate-y-90
+              lg:translate-x-10 lg:translate-y-90
               xl:translate-x-10 xl:translate-y-90
               2xl:translate-x-40 2xl:translate-y-50
               "
