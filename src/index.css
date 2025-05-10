@@ -34,3 +34,18 @@ body{
     height: 100dvh;
     width: 100%;
 }
+
+.parallaxEffect{
+    background: url("../public/parallax-back.jpg") no-repeat fixed center / cover;
+    width: 100%;
+   
+    padding: 0 !important;
+    margin: 0 !important;
+
+}
+
+.contact_back{
+    background: url("../public/contact.jpg") no-repeat fixed center / cover;
+    border-radius: 20px;
+    overflow: hidden;
+}

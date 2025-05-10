@@ -48,7 +48,7 @@ const Banner = () => {
                 className="flex gap-5 relative after p-2 w-fit text-xl text-center font-semibold text-prmiaryColor
               after:absolute after:transition-all after:w-0 hover:after:w-full after:left-0 after:h-1 after:top-10 after:bg-brandColor active:bg-lightBrandColor"
               >
-                GET STARTED NOW..{" "}
+                GET STARTED NOW..
                 <TbArrowNarrowRightDashed className="inline-block text-2xl scale-150" />
               </Link>
             </div>

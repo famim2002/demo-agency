@@ -7,7 +7,9 @@ import Services from "../componenets/home/Services";
 import Testimonial from "../componenets/home/Testimonial";
 import Team from "../componenets/home/Team";
 import Question from "../componenets/home/Question";
-import ParallaxEffect from "../componenets/home/ParallaxEffect";
+import Contact from "../componenets/home/Contact"
+import Footer from "../componenets/home/Footer"
+import Parallax from "../componenets/home/Parallax"
 
 const Home = () => {
   return (
@@ -17,10 +19,12 @@ const Home = () => {
       <Charge />
       <Technologies />
       <Services />
-      <ParallaxEffect />
       <Testimonial />
       <Team />
+      <Parallax/>
       <Question />
+      <Contact />
+      <Footer/>
     </>
   );
 };
