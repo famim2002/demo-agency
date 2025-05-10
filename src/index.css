@@ -27,3 +27,13 @@ a{
 body{
     background-color: #EAEAEA;
 }
+
+.parallax_image{
+    /* background-image: url("../public/parallax_background.webp") ; */
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 100vh;
+    max-width: 100%;
+   
+}

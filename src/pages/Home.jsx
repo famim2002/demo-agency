@@ -6,6 +6,8 @@ import Technologies from '../componenets/home/Technologies'
 import Services from '../componenets/home/Services'
 import Testimonial from '../componenets/home/Testimonial'
 import Team from '../componenets/home/Team'
+import Question from '../componenets/home/Question'
+import ParallaxBack from '../componenets/home/ParallaxBack'
 
 const Home = () => {
   return (
@@ -15,8 +17,10 @@ const Home = () => {
       <Charge />
       <Technologies />
       <Services />
+      <ParallaxBack/>
       <Testimonial />
-      <Team/>
+      <Team />
+      <Question/>
     </>
   );
 }
