@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router"
 import { TbArrowNarrowRightDashed } from "react-icons/tb";
 import { BsArrowDown } from "react-icons/bs";
-import Copyright from "./copyright"
+import Copyright from "./utilitites/Copyright"
 
 
 
@@ -52,7 +52,7 @@ const Banner = () => {
                 <TbArrowNarrowRightDashed className="inline-block text-2xl scale-150" />
               </Link>
             </div>
-            <Copyright />
+            <Copyright/>
           </div>
 
           <div
