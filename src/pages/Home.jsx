@@ -5,6 +5,7 @@ import Charge from '../componenets/home/Charge'
 import Technologies from '../componenets/home/Technologies'
 import Services from '../componenets/home/Services'
 import Testimonial from '../componenets/home/Testimonial'
+import Team from '../componenets/home/Team'
 
 const Home = () => {
   return (
@@ -14,7 +15,8 @@ const Home = () => {
       <Charge />
       <Technologies />
       <Services />
-      <Testimonial/>
+      <Testimonial />
+      <Team/>
     </>
   );
 }

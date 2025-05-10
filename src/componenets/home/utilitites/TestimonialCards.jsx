@@ -1,8 +1,10 @@
 import React from "react";
 
 const TestimonialCards = ({ point, title, icon, image,name,tag ,children }) => {
+  
+  
   return (
-    <div className="group">
+    <div>
       <div className="bg-zinc-50 p-9">
         <div className="flex gap-4 items-center">
           <h3 className="text-5xl text-prmiaryColor font-semibold font-textFont">

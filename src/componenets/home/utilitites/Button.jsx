@@ -5,7 +5,7 @@ const Button = () => {
   return (
     <StyledWrapper>
       <button className="button type1">
-        <span className="btn-txt">Hello</span>
+        <span className="btn-txt font-textFont">explore more</span>
       </button>
     </StyledWrapper>
   );
@@ -21,14 +21,14 @@ const StyledWrapper = styled.div`
     border: 2px solid #252525;
     overflow: hidden;
     border-radius: 30px;
-    color: #333;
+    color: #252525;
     transition: all 0.5s ease-in-out;
   }
 
   .btn-txt {
     z-index: 1;
     font-weight: 800;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
   }
 
   .type1::after {
@@ -36,8 +36,8 @@ const StyledWrapper = styled.div`
     position: absolute;
     left: 0;
     top: 0;
-    transition: all 0.5s ease-in-out;
-    background-color: #333;
+    transition: all 0.3s ease-in-out;
+    background-color: #ddeb9d;
     border-radius: 30px;
     visibility: hidden;
     height: 10px;
@@ -46,9 +46,9 @@ const StyledWrapper = styled.div`
   }
 
   .button:hover {
-    box-shadow: 1px 1px 200px #252525;
-    color: #fff;
-    border: none;
+    box-shadow: 1px 1px 200px #a4b465;
+    color: #252525;
+    border:2px solid #a4b465;
   }
 
   .type1:hover::after {

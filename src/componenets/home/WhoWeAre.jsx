@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./utilitites/Button"
 
 const WhoWeAre = () => {
   return (
@@ -26,7 +27,7 @@ const WhoWeAre = () => {
                 </span>
                 AGENCY YOUR BRANDING !
               </h2>
-              <div className="flex flex-col ">
+              <div className="flex flex-col gap-16  ">
                 <div className="flex flex-col gap-2">
                   <div className="flex gap-2">
                     <img
@@ -52,6 +53,7 @@ const WhoWeAre = () => {
                     happy clients
                   </small>
                 </div>
+                <Button />
               </div>
             </div>
             <div className="relative max-w-sm  m-auto ">

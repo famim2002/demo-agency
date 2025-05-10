@@ -2,6 +2,7 @@ import React from "react";
 import TestimonialCards from "./utilitites/TestimonialCards";
 import { FaStar } from "react-icons/fa6";
 import { IoIosQuote } from "react-icons/io";
+import Button from "./utilitites/Button"
 
 <IoIosQuote />;
 
@@ -28,6 +29,7 @@ const Testimonial = () => {
               Consumers today rely heavily on digital means to research
               products. We research a brand of bldend
             </p>
+            <Button />
           </div>
           <div
             className="grid grid-cols-1 gap-5 
@@ -37,8 +39,8 @@ const Testimonial = () => {
               icon={<FaStar />}
               point="4.9"
               title="(out of 5 star)"
-              image="/testi1.jpg"
-              name="dani daniels"
+              image="/client (1).jpg"
+              name="johnny sins"
               tag="Mid-Level Developer"
             >
               We full service digital agency that build’s fascinating users
@@ -59,8 +61,8 @@ const Testimonial = () => {
               icon={<FaStar />}
               point="4.9"
               title="(out of 5 star)"
-              image="/testi1.jpg"
-              name="dani daniels"
+              image="/testi2.jpg"
+              name="mia khalifa"
               tag="Mid-Level Developer"
             >
               We full service digital agency that build’s fascinating users
@@ -70,8 +72,8 @@ const Testimonial = () => {
               icon={<FaStar />}
               point="4.9"
               title="(out of 5 star)"
-              image="/testi1.jpg"
-              name="dani daniels"
+              image="/testi3.jpg"
+              name="james deen"
               tag="Mid-Level Developer"
             >
               We full service digital agency that build’s fascinating users
