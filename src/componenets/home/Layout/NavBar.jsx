@@ -11,6 +11,10 @@ const NavBar = () => {
         <Link to="/about" className="text-[35px] ">
           about
         </Link>
+        <Link to="/Blog" className="text-[35px] ">
+          blog
+
+        </Link>
       </div>
     </>
   );

@@ -8,7 +8,6 @@ import Testimonial from "../componenets/home/Testimonial";
 import Team from "../componenets/home/Team";
 import Question from "../componenets/home/Question";
 import Contact from "../componenets/home/Contact"
-import Footer from "../componenets/home/Footer"
 import Parallax from "../componenets/home/Parallax"
 
 const Home = () => {
@@ -24,7 +23,7 @@ const Home = () => {
       <Parallax/>
       <Question />
       <Contact />
-      <Footer/>
+     
     </>
   );
 };
