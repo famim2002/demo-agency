@@ -20,8 +20,8 @@ const Footer = () => {
           </h2>
           <div className="w-fit overflow-hidden mx-auto">
             <h3
-              className="relative after after:absolute after:top-12 after:left-0 after:w-full after after:h-[3px] after:bg-baseColor
-          text-[35px] font-semibold font-headerFont text-baseColor after:transition-all hover:after:w-0"
+              className="relative after after:absolute after:top-12 after:left-0 after:w-full after after:h-[3px] 
+          text-[35px] font-semibold font-headerFont text-baseColor after:bg-brandColor after:transition-all hover:after:w-0"
             >
               hello69@example.com
             </h3>
@@ -37,16 +37,16 @@ const Footer = () => {
               className="flex flex-col items-center justify-between gap-9
             md:flex-row"
             >
-              <li className="text-[19px] text-white font-textFont hover:scale-110 hover:border-b-2 ">
+              <li className="text-[19px] text-white font-textFont hover:scale-110  hover:border-b-2 border-brandColor  ">
                 <Link>AGENCY</Link>
               </li>
-              <li className="text-[19px] text-white font-textFont hover:scale-110 hover:border-b-2 ">
+              <li className="text-[19px] text-white font-textFont hover:scale-110  hover:border-b-2 border-brandColor  ">
                 <Link>CAREER</Link>
               </li>
-              <li className="text-[19px] text-white font-textFont hover:scale-110 hover:border-b-2 ">
+              <li className="text-[19px] text-white font-textFont hover:scale-110  hover:border-b-2 border-brandColor  ">
                 <Link>PRIVACY</Link>
               </li>
-              <li className="text-[19px] text-white font-textFont hover:scale-110 hover:border-b-2 ">
+              <li className="text-[19px] text-white font-textFont hover:scale-110  hover:border-b-2 border-brandColor  ">
                 <Link>TERMS & CONDITIONS</Link>
               </li>
             </ul>
@@ -55,22 +55,22 @@ const Footer = () => {
               className="flex flex-col justify-between gap-10
             sm:flex-row md:gap-6"
             >
-              <li className="text-[22px] text-white font-textFont hover:scale-150">
+              <li className="text-[22px] text-white font-textFont hover:scale-150 hover:text-brandColor">
                 <Link>
                   <TfiFacebook />
                 </Link>
               </li>
-              <li className="text-[22px] text-white font-textFont hover:scale-150">
+              <li className="text-[22px] text-white font-textFont hover:scale-150 hover:text-brandColor">
                 <Link>
                   <FaTwitter />
                 </Link>
               </li>
-              <li className="text-[22px] text-white font-textFont hover:scale-150">
+              <li className="text-[22px] text-white font-textFont hover:scale-150 hover:text-brandColor">
                 <Link>
                   <GrInstagram />
                 </Link>
               </li>
-              <li className="text-[22px] text-white font-textFont hover:scale-150">
+              <li className="text-[22px] text-white font-textFont hover:scale-150 hover:text-brandColor">
                 <Link>
                   <FaLinkedin />
                 </Link>

@@ -1,23 +1,40 @@
-import React from 'react'
-import { Link } from 'react-router'
+import React from "react";
+import { Link } from "react-router";
 
 const NavBar = () => {
   return (
     <>
-      <div className=" py-10 flex gap-10 justify-center">
-        <Link to="/" className="text-[35px] pb-[3px] hover:border-b-[3px] hover:pb-0 border-stone-400">
+      <div
+        className=" py-10 flex flex-col gap-10 justify-center items-center
+                       sm:flex-row"
+      >
+        <Link
+          to="/"
+          className="text-[35px] pb-[13px] hover:border-b-[13px] px-2   hover:pb-0 border-brandColor active:bg-brandColor"
+        >
           home
         </Link>
-        <Link to="/about" className="text-[35px] pb-[3px] hover:border-b-[3px] hover:pb-0 border-stone-400">
+        <Link
+          to="/about"
+          className="text-[35px] pb-[13px] hover:border-b-[13px] px-2   hover:pb-0 border-brandColor active:bg-brandColor"
+        >
           about
         </Link>
-        <Link to="/blog" className="text-[35px] pb-[3px] hover:border-b-[3px] hover:pb-0 border-stone-400">
+        <Link
+          to="/blog"
+          className="text-[35px] pb-[13px] hover:border-b-[13px] px-2   hover:pb-0 border-brandColor active:bg-brandColor"
+        >
           blog
-
+        </Link>
+        <Link
+          to="/Design"
+          className="text-[35px] pb-[13px] hover:border-b-[13px] px-2   hover:pb-0 border-brandColor active:bg-brandColor"
+        >
+          design
         </Link>
       </div>
     </>
   );
-}
+};
 
-export default NavBar
+export default NavBar;

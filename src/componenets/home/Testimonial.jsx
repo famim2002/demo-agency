@@ -2,7 +2,7 @@ import React from "react";
 import TestimonialCards from "./utilitites/TestimonialCards";
 import { FaStar } from "react-icons/fa6";
 import { IoIosQuote } from "react-icons/io";
-import Button from "./utilitites/Button"
+import { Link } from "react-router";
 
 <IoIosQuote />;
 
@@ -29,7 +29,13 @@ const Testimonial = () => {
               Consumers today rely heavily on digital means to research
               products. We research a brand of bldend
             </p>
-            <Button />
+            <Link
+              to="/design"
+              className="text-3xl font-semibold font-textFont  text-prmiaryColor border-3 border-baseColor outline-2 rounded-full py-4 px-10 w-fit my-5 transition-all hover:bg-prmiaryColor hover:text-stone-200 hover:shadow-2xl hover:outline-brandColor hover:border-brandColor hover:shadow-black
+              mx-auto sm:m-0"
+                           >
+              explore more
+            </Link>
           </div>
           <div
             className="grid grid-cols-1 gap-5 

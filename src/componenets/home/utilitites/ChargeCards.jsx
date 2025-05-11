@@ -5,7 +5,7 @@ const ChargeCards = ({image,title,children}) => {
     <div>
       <div className="flex flex-col gap-6 ">
         <div className="w-fit">
-          <img src={image} alt="icon" className="w-[50px] py-5" />
+          <img src={image} alt="icon" className="w-full h-[100px] py-5" />
         </div>
         <h3 className="text-2xl text-prmiaryColor font-semibold font-tagFont max-w-sm">
           {title}

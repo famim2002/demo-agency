@@ -1,5 +1,6 @@
 import React from "react";
-import Button from "./utilitites/Button"
+
+import { Link } from "react-router"
 
 
 
@@ -20,10 +21,10 @@ const Contact = () => {
           >
             Let’s start your experience with Arolax
           </h2>
-             
-          <div>
-          
-          </div>
+          <Link to="/design" className="text-3xl font-semibold font-textFont  text-stone-100 border-2 rounded-full py-4 px-10 mx-auto my-15 transition-all hover:bg-stone-100 hover:text-black hover:shadow-2xl hover:border-stone-300 hover:shadow-amber-50 ">
+            explore more
+          </Link>
+          <div></div>
         </div>
       </div>
     </section>

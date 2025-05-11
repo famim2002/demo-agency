@@ -11,7 +11,7 @@
 @theme{
     --color-prmiaryColor: #222222;
     --color-sceondryColor: #656462;
-    --color-baseColor: #FEFDF8;
+    --color-baseColor: #EAEAEA;
     --color-brandColor: #A4B465;
     --color-lightBrandColor: #DDEB9D;
     
@@ -38,7 +38,6 @@ body{
 .parallaxEffect{
     background: url("../public/parallax-back.jpg") no-repeat fixed center / cover;
     width: 100%;
-   
     padding: 0 !important;
     margin: 0 !important;
 
@@ -53,8 +52,42 @@ body{
 .blog_back{
     background: url("../public/blog.jpg") no-repeat fixed center / cover;
     height: 40dvh;
-    
     overflow: hidden;
 }
 
+.design_parallax{
+    background: url("../public/desing_back.jpg") no-repeat fixed center / cover;
+    height: 70dvh;
+    overflow: hidden;
+    
+}
 
+
+.design_parallax h2{
+    
+    -webkit-text-stroke: 5px #fff;
+    color: transparent;
+    width: 200px;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .design_parallax h2 {
+        -webkit-text-stroke: 3px #fff;
+    line-height: 90px !important;
+       
+    }
+}
+
+@media (max-width: 480px) {
+    .design_parallax h2 {
+        -webkit-text-stroke: 1px #fff;
+
+       line-height: 50px !important;
+       
+    }
+}

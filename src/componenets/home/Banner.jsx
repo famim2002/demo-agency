@@ -10,7 +10,7 @@ const Banner = () => {
   return (
     <section className="px-4 py-30">
       <div className="container">
-        <div className="flex flex-col gap-5 lg:flex-row">
+        <div className="flex flex-col gap-8 lg:flex-row">
           <div className=" text-center sm:text-left">
             <h1
               className=" text-[70px] font-bold font-headerFont max-w-4xl leading-20 tracking-tighter  text-prmiaryColor
@@ -21,15 +21,18 @@ const Banner = () => {
             2xl:text-[145px]"
             >
               WE ARE SKILLED IN <br />
-              <span className=" inline-block w-2xs text-6xl font-bold text-sceondryColor ">
+              <span
+                className=" inline-block w-3xs text-6xl font-bold tracking-wide text-sceondryColor
+              md:w-2xs "
+              >
                 WEB DESIGN
               </span>
               AND
               <span
-                className="relative after text-left inline-block text-4xl font-bold text-sceondryColor
+                className="relative after text-left inline-block text-4xl tracking-wide font-bold text-sceondryColor
               after:absolute after:w-full after:left-0 after:h-1 after:top-10 after:bg-brandColor "
               >
-                ....DEVELOPMENT
+                ...DEVELOPMENT
               </span>
             </h1>
 
@@ -52,7 +55,7 @@ const Banner = () => {
                 <TbArrowNarrowRightDashed className="inline-block text-2xl scale-150" />
               </Link>
             </div>
-            <Copyright/>
+            <Copyright />
           </div>
 
           <div
@@ -61,7 +64,7 @@ const Banner = () => {
             lg:flex-row "
           >
             <div>
-              <img className=" w-[350px]" src="/banner_1.jpg" alt="" />
+              <img className=" w-[400px]" src="/banner_1.jpg" alt="" />
             </div>
             <div className="absolute w-full">
               <img

@@ -8,7 +8,7 @@ const ServiceCards = ({ col, title, descrip, children }) => {
         className="flex flex-col justify-between   py-5 gap-7  border-y-1 border-stone-300
       sm:flex-row sm:gap-5 transition-all hover:shadow-2xl hover:px-5"
       >
-        <h3 className="text-4xl text-prmiaryColor font-bold font-headerFont ">
+        <h3 className="text-3xl text-prmiaryColor font-bold font-headerFont ">
           {col}
         </h3>
         <h4 className="text-4xl text-prmiaryColor font-bold font-headerFont ">

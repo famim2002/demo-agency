@@ -1,5 +1,6 @@
 import React from "react";
-import Button from "./utilitites/Button"
+import { Link } from "react-router"
+
 
 const WhoWeAre = () => {
   return (
@@ -53,7 +54,13 @@ const WhoWeAre = () => {
                     happy clients
                   </small>
                 </div>
-                <Button />
+                <Link
+                  to="/design"
+                  className="text-3xl font-semibold font-textFont  text-prmiaryColor border-3 border-baseColor outline-2 rounded-full py-4 px-10 w-fit my-5 transition-all hover:bg-prmiaryColor hover:text-stone-200 hover:shadow-2xl hover:outline-brandColor hover:border-brandColor hover:shadow-black
+                  mx-auto sm:m-0"
+                >
+                  explore more
+                </Link>
               </div>
             </div>
             <div className="relative max-w-sm  m-auto ">
@@ -64,7 +71,7 @@ const WhoWeAre = () => {
                 alt=""
               />
               <div
-                className="absolute px-10 mx-auto py-15 bg-stone-100 translate-y-[-250px] 
+                className="absolute px-10 mx-auto py-10 bg-stone-50 shadow-2xl translate-y-[-250px] 
             sm:translate-x-[90px]
               lg:rounded-bl-[40%]"
               >

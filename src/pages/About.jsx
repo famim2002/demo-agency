@@ -1,12 +1,12 @@
-import React from 'react'
-import WhoWeAre from '../componenets/home/WhoWeAre'
+import React from "react";
+import WhoWeAre from "../componenets/home/WhoWeAre";
 
 const About = () => {
   return (
     <>
-    <WhoWeAre/>
+      <WhoWeAre />
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;

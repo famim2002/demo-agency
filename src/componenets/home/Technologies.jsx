@@ -5,7 +5,7 @@ const Technologies = () => {
   return (
     <section className="px-3 py-20">
       <div className="container">
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-15">
           <div>
             <h3 className="text-[24px] text-sceondryColor font-textFont font-semibold max-w-xl mx-auto">
               Our Arolax Technology Expertise includes

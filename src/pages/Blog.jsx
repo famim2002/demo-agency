@@ -3,7 +3,7 @@ import React from "react";
 const Blog = () => {
   return (
     <>
-      <section className="px-3 py-18 overflow-hidden">
+      <section className="px-3 py-24 overflow-hidden">
         <div className="container">
           <div className="flex flex-col gap-20">
             <div
