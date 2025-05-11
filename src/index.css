@@ -49,3 +49,12 @@ body{
     border-radius: 20px;
     overflow: hidden;
 }
+
+.blog_back{
+    background: url("../public/blog.jpg") no-repeat fixed center / cover;
+    height: 40dvh;
+    
+    overflow: hidden;
+}
+
+

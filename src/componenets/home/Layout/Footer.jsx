@@ -37,16 +37,16 @@ const Footer = () => {
               className="flex flex-col items-center justify-between gap-9
             md:flex-row"
             >
-              <li className="text-[19px] text-white font-textFont ">
+              <li className="text-[19px] text-white font-textFont hover:scale-110 hover:border-b-2 ">
                 <Link>AGENCY</Link>
               </li>
-              <li className="text-[19px] text-white font-textFont ">
+              <li className="text-[19px] text-white font-textFont hover:scale-110 hover:border-b-2 ">
                 <Link>CAREER</Link>
               </li>
-              <li className="text-[19px] text-white font-textFont ">
+              <li className="text-[19px] text-white font-textFont hover:scale-110 hover:border-b-2 ">
                 <Link>PRIVACY</Link>
               </li>
-              <li className="text-[19px] text-white font-textFont ">
+              <li className="text-[19px] text-white font-textFont hover:scale-110 hover:border-b-2 ">
                 <Link>TERMS & CONDITIONS</Link>
               </li>
             </ul>
@@ -55,22 +55,22 @@ const Footer = () => {
               className="flex flex-col justify-between gap-10
             sm:flex-row md:gap-6"
             >
-              <li className="text-[22px] text-white font-textFont ">
+              <li className="text-[22px] text-white font-textFont hover:scale-150">
                 <Link>
                   <TfiFacebook />
                 </Link>
               </li>
-              <li className="text-[22px] text-white font-textFont ">
+              <li className="text-[22px] text-white font-textFont hover:scale-150">
                 <Link>
                   <FaTwitter />
                 </Link>
               </li>
-              <li className="text-[22px] text-white font-textFont ">
+              <li className="text-[22px] text-white font-textFont hover:scale-150">
                 <Link>
                   <GrInstagram />
                 </Link>
               </li>
-              <li className="text-[22px] text-white font-textFont ">
+              <li className="text-[22px] text-white font-textFont hover:scale-150">
                 <Link>
                   <FaLinkedin />
                 </Link>

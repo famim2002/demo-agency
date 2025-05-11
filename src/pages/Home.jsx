@@ -6,7 +6,6 @@ import Technologies from "../componenets/home/Technologies";
 import Services from "../componenets/home/Services";
 import Testimonial from "../componenets/home/Testimonial";
 import Team from "../componenets/home/Team";
-import Question from "../componenets/home/Question";
 import Contact from "../componenets/home/Contact"
 import Parallax from "../componenets/home/Parallax"
 
@@ -21,7 +20,6 @@ const Home = () => {
       <Testimonial />
       <Team />
       <Parallax/>
-      <Question />
       <Contact />
      
     </>

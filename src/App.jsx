@@ -4,6 +4,7 @@ import Layout from './componenets/home/Layout'
 import About from './pages/About'
 import Home from './pages/Home'
 import Blog from './pages/Blog'
+import Design from './pages/Design'
 
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
           <Route path="/"  element={<Layout/>}>
            <Route path='/' element={<Home/>}></Route>
            <Route path='/about' element={<About/>}></Route>
-           <Route path='/Blog' element={<Blog/>}></Route>
+           <Route path='/blog' element={<Blog/>}></Route>
+           <Route path='/design' element={<Design/>}></Route>
           </Route>
       </Routes>
       </BrowserRouter>
