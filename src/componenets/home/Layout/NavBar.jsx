@@ -27,11 +27,18 @@ const NavBar = () => {
           blog
         </Link>
         <Link
-          to="/Design"
+          to="/design"
           className="text-[35px] pb-[13px] hover:border-b-[13px] px-2   hover:pb-0 border-brandColor active:bg-brandColor"
         >
           design
         </Link>
+         <Link
+          to="/contact"
+          className="text-[35px] pb-[13px] hover:border-b-[13px] px-2   hover:pb-0 border-brandColor active:bg-brandColor"
+        >
+          contact
+        </Link>
+        
       </div>
     </>
   );

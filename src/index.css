@@ -1,93 +1,92 @@
 @import "tailwindcss";
 
-
-@utility  container{
-    margin: 0 auto;
+@utility container {
+  margin: 0 auto;
 }
 
+@theme {
+  --color-prmiaryColor: #222222;
+  --color-sceondryColor: #656462;
+  --color-baseColor: #eaeaea;
+  --color-brandColor: #a4b465;
+  --color-lightBrandColor: #ddeb9d;
 
-
-
-@theme{
-    --color-prmiaryColor: #222222;
-    --color-sceondryColor: #656462;
-    --color-baseColor: #EAEAEA;
-    --color-brandColor: #A4B465;
-    --color-lightBrandColor: #DDEB9D;
-    
-    --font-textFont: "Ubuntu", sans-serif;
-    --font-headerFont: "Cal Sans", sans-serif;
-    
+  --font-textFont: "Ubuntu", sans-serif;
+  --font-headerFont: "Cal Sans", sans-serif;
 }
 
-a{
-    display: inline-block ;
+a {
+  display: inline-block;
 }
 
-body{
-    background-color: #EAEAEA;
+body {
+  background-color: #eaeaea;
 }
 
-.custom-bg img{
-    /* background-image: url(../public/parallax-back.jpg); */
-    background-position: center;
-    height: 100dvh;
-    width: 100%;
+.custom-bg img {
+  /* background-image: url(../public/parallax-back.jpg); */
+  background-position: center;
+  height: 100dvh;
+  width: 100%;
 }
 
-.parallaxEffect{
-    background: url("../public/parallax-back.jpg") no-repeat fixed center / cover;
-    width: 100%;
-    padding: 0 !important;
-    margin: 0 !important;
-
+.parallaxEffect {
+  background: url("../public/parallax-back.jpg") no-repeat fixed center / cover;
+  width: 100%;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
-.contact_back{
-    background: url("../public/contact.jpg") no-repeat fixed center / cover;
-    border-radius: 20px;
-    overflow: hidden;
+.contact_back {
+  background: url("../public/contact.jpg") no-repeat fixed center / cover;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
-.blog_back{
-    background: url("../public/blog.jpg") no-repeat fixed center / cover;
-    height: 40dvh;
-    overflow: hidden;
+.blog_back {
+  background: url("../public/blog.jpg") no-repeat fixed center / cover;
+  height: 40dvh;
+  overflow: hidden;
 }
 
-.design_parallax{
-    background: url("../public/desing_back.jpg") no-repeat fixed center / cover;
-    height: 70dvh;
-    overflow: hidden;
-    
+.design_parallax {
+  background: url("../public/desing_back.jpg") no-repeat fixed center / cover;
+  height: 70dvh;
+  overflow: hidden;
 }
 
-
-.design_parallax h2{
-    
-    -webkit-text-stroke: 5px #fff;
-    color: transparent;
-    width: 200px;
+.design_parallax h2 {
+  -webkit-text-stroke: 5px #fff;
+  color: transparent;
+  width: 200px;
 }
-
-
-
-
-
 
 @media (max-width: 768px) {
-    .design_parallax h2 {
-        -webkit-text-stroke: 3px #fff;
+  .design_parallax h2 {
+    -webkit-text-stroke: 3px #fff;
     line-height: 90px !important;
-       
-    }
+  }
 }
 
 @media (max-width: 480px) {
-    .design_parallax h2 {
-        -webkit-text-stroke: 1px #fff;
+  .design_parallax h2 {
+    -webkit-text-stroke: 1px #fff;
 
-       line-height: 50px !important;
-       
-    }
+    line-height: 50px !important;
+  }
+}
+
+.about_parallax1 {
+  background: url("../public/about_parallax(1).jpg") no-repeat fixed center /
+    cover;
+}
+.about_parallax2 {
+  background: url("../public/about_parallax(2).jpg") no-repeat fixed center /
+    cover;
+  height: 50dvh;
+}
+.about_parallax3 {
+  background: url("../public/about_parallax(3).jpg") no-repeat fixed center /
+    cover;
+  height: 49dvh;
 }

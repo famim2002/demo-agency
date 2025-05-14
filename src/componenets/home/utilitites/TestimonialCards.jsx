@@ -17,8 +17,7 @@ const TestimonialCards = ({ point, title, icon, image,name,tag ,children }) => {
         </small>
         <p
           className="pt-15 pb-10 text-[20px] font-textFont text-prmiaryColor max-w-sm
-                                  
-          "
+                                  "
         >
           {children}
         </p>

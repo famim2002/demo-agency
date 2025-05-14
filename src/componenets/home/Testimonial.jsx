@@ -46,7 +46,7 @@ const Testimonial = () => {
               point="4.9"
               title="(out of 5 star)"
               image="/client (1).jpg"
-              name="johnny sins"
+              name="jonathan sins"
               tag="Mid-Level Developer"
             >
               We full service digital agency that build’s fascinating users
@@ -57,7 +57,7 @@ const Testimonial = () => {
               point="4.9"
               title="(out of 5 star)"
               image="/testi1.jpg"
-              name="dani daniels"
+              name="danila daniels"
               tag="Mid-Level Developer"
             >
               We full service digital agency that build’s fascinating users
@@ -68,7 +68,7 @@ const Testimonial = () => {
               point="4.9"
               title="(out of 5 star)"
               image="/testi2.jpg"
-              name="mia khalifa"
+              name="maya khalifa"
               tag="Mid-Level Developer"
             >
               We full service digital agency that build’s fascinating users
@@ -79,7 +79,7 @@ const Testimonial = () => {
               point="4.9"
               title="(out of 5 star)"
               image="/testi3.jpg"
-              name="james deen"
+              name="jack daniels "
               tag="Mid-Level Developer"
             >
               We full service digital agency that build’s fascinating users
