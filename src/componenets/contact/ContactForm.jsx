@@ -14,6 +14,9 @@ const ContactForm = () => {
             <h2 className="text-[80px] font-bold font-headerFont text-prmiaryColor max-w-sm leading-20">
               PLACE YOUR ORDER
             </h2>
+            <div className="flex flex-col gap-8">
+
+            </div>
             <div className="grid grid-cols-2 w-fit">
               <Link to="/">
                 <TfiFacebook className="inline-block h-15 w-15 text-[25px] p-2 border-radius bg-brandColor m-3 rounded-full cursor-pointer hover:scale-110 hover:text-white hover:bg-blue-700" />

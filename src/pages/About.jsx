@@ -6,7 +6,8 @@ const About = () => {
   return (
     <>
       <WhoWeAre />
-      <AboutBanner/>
+      <AboutBanner />
+      
     </>
   );
 };
